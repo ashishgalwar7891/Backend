@@ -1,0 +1,58 @@
+version: "3.9"
+services:
+  authservice:
+    image: auth-app-image
+    build: c3s1mcAuthUser/
+    container_name: auth-app-container
+    ports:
+      - 8182:8182
+    networks:
+      - microservice
+    depends_on:
+      - mysqlservice
+    restart: always
+
+  mysqlservice:
+    image: mysql:latest
+    container_name: mysql-cont
+    ports:
+      - 3306:3306
+    networks:
+      - microservice
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    restart: always
+
+  trackservice:
+    image: track-app-image
+    build: c2.s3.mc1/
+    container_name: user-app-container
+    ports:
+      - 8075:8075
+    networks:
+      - microservice
+    depends_on:
+      - mongoservice
+
+  mongoservice:
+    image: mongo
+    container_name: mongo-cont
+    ports:
+      - 27017:27017
+    networks:
+      - microservice
+
+  gateservice:
+    image: gateway
+    build: apigw/
+    container_name: gate-container
+    ports:
+      - 7777:7777
+    networks:
+      - microservice
+networks:
+  microservice:
+    driver: bridge

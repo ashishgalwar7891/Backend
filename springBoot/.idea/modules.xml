@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BEJ_C1_S4_Spring_Boot_MC_1/BEJ_C1_S4_Spring_Boot_MC_1.iml" filepath="$PROJECT_DIR$/BEJ_C1_S4_Spring_Boot_MC_1/BEJ_C1_S4_Spring_Boot_MC_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BEJ_C1_S4_Spring_Boot_PC_1/BEJ_C1_S4_Spring_Boot_PC_1.iml" filepath="$PROJECT_DIR$/BEJ_C1_S4_Spring_Boot_PC_1/BEJ_C1_S4_Spring_Boot_PC_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springBoot.iml" filepath="$PROJECT_DIR$/.idea/springBoot.iml" />
+    </modules>
+  </component>
+</project>

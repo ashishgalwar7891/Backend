@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="393e9f55-a299-4a8d-8c48-e3dd18a97e80" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/C2S3-.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/ProductApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker/MongoCRUDdemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker/ProductApplication/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/UserAuthenticationServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/exception/UserAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/filter/JWTSecurityTokenGeneratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/filter/SecurityTokenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/services/UserServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/services/UserServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/test/java/com/MusicApplication/UserAuthenticationServices/UserAuthenticationServicesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/UserTrackServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/controller/UserTrackController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/domain/Track.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/TrackNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/UserAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/filter/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/repository/UserTrackRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/services/UserTrackServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/services/UserTrackServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/test/java/com/MusicApplication/UserTrackServices/UserTrackServicesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/ShoppingApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/UserAuthenticationServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/exception/UserAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/filter/UserSecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/filter/UserSecurityFilterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/services/UserServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/services/UserServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/test/java/com/shoppingApplication/userAuthenticationServices/UserAuthenticationServicesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/Config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/UserProductServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/container/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/exception/ProductNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/exception/UserAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/filter/ProductSecurityFilterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/services/ProductServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/services/ProductServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/test/java/com/shoppingApplication/userProductServices/UserProductServicesApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2JtJqDYaI14xfngJyDjh0yCnEOC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="393e9f55-a299-4a8d-8c48-e3dd18a97e80" name="Changes" comment="" />
+      <created>1672891634495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672891634495</updated>
+    </task>
+    <servers />
+  </component>
+</project>

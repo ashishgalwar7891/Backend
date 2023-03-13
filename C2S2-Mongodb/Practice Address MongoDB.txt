@@ -1,0 +1,16 @@
+// create database address_db
+use address_db
+db.Address.insertOne({houseNo:23,streetName:'Main Dave Street',city:'NY',zipCode:7002})
+db.Address.insertOne({houseNo:24,streetName:'Main Dave Street',city:'Rochester',zipCode:7002})
+db.Address.insertOne({houseNo:25,streetName:'Main Dave Street',city:'Alwar',zipCode:7002})
+db.Address.insertOne({houseNo:26,streetName:'Main Dave Street',city:'NY',zipCode:7002})
+db.Address.insertOne({houseNo:27,streetName:'Main Dave Street',city:'Kingston',zipCode:7002})
+db.Address.find()
+db.Address.find({city:'Rochester'})
+// count the number of address by NY
+db.Address.find({city:'NY'}).count()
+// find the address by city ny, kingston, rochester
+db.Address.find({city:{$in:['NY','Kingston','Rochester']}})
+db.Address.deleteMany({city:'NY'})
+
+

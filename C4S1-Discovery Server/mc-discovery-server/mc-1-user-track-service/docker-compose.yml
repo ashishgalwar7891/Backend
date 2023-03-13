@@ -1,0 +1,68 @@
+version: "3.9"
+services:
+  authService:
+    image: auth-app-image
+    build: UserAuthApp/
+    container_name: auth-app-container
+    ports:
+      - 4444:4444
+    networks:
+        - microserviceNetwork
+    depends_on:
+        - mysqlService
+        - euraka-service
+    restart: always
+
+  mysqlService:
+    image: mysql
+    container_name: mysql-container
+    ports:
+      - 3306:3306
+    networks:
+        - microserviceNetwork
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    restart: always
+
+  userTrackService:
+    image: user-product-image
+    build: UserTrack/
+    container_name: user-Track-container
+    ports:
+     - "5555:5555"
+    networks:
+     - microserviceNetwork
+    depends_on:
+     - mongoService
+     - euraka-service
+     
+  mongoService:
+    image: mongo
+    container_name: mongo-container
+    ports:
+      - 27017:27017
+    networks:
+      - microserviceNetwork
+
+  apigateway:
+    container_name: spring-cloud-api-gateway
+    build: Apigateway/
+    networks:
+      - microserviceNetwork
+    ports:
+      - 9998:9998
+
+  discovery-server:
+    container_name: spring-cloud-discovery-service
+    build: discovery-server/
+    networks:
+      - microserviceNetwork
+    ports:
+      - 8761:8761
+
+networks:
+  microserviceNetwork:
+    driver: bridge

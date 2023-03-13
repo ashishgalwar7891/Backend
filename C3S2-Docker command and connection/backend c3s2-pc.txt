@@ -1,0 +1,76 @@
+MYSQL Database:
+=================
+
+Step1:
+docker pull mysql
+
+Step2:
+docker network create myNet1
+
+Step3:
+docker run --name mysql_container -p 3306:3306 --network myNet1 -e MYSQL_ROOT_PASSWORD=ROOT mysql:latest
+
+Step4:
+docker exec -it mysql_container bash
+#mysql -u root -p
+password:root
+
+Step5:
+create database student_db;
+
+Step6:
+use student_db;
+
+Step7:
+create table student(studentId int,studentName varchar(10),class varchar(10));
+
+Step8:
+insert into student values(101,'Jhon','11th');
+
+Step9:
+select * from student;
+
+step10:
+exit
+
+step11:
+exit
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+MONGO Database:
+=================
+
+Step1:
+docker pull mongo
+
+Step2:
+docker network create mongonet
+
+Step3:
+docker run --name mongo_container -p 27017:27017 --network mongonet mongo:latest
+
+Step4:
+docker exec -it mongo_container bash
+#mongosh
+
+Step5:
+#mongosh
+
+Step6:
+use Student_db;
+
+Step7:
+db.student.insertOne({studentID:'1',studentName:'Jatin',className:'BE-Mech'});
+
+Step8:
+db.student.find();
+
+step9:
+exit
+
+step10:
+exit
+
+
+

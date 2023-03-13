@@ -1,0 +1,50 @@
+version: "3.9"
+services:
+  authService:
+    image: auth-app-image
+    build: AuthApp/
+    container_name: auth-app-container
+    ports:
+      - 4444:4444
+    networks:
+      - mynetwork1
+    depends_on:
+      - mysqlService
+    restart: always
+
+  mysqlService:
+    image: mysql
+    container_name: mysql-cont
+    ports:
+      - 3306:3306
+    networks:
+      - mynetwork1
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    restart: always
+
+  userproductService:
+    image: user-product-image
+    build: UserProductApp/
+    container_name: user-prod-cont
+    ports:
+      - 555:555
+    networks:
+      - mynetwork1
+    depends_on:
+      - mongoService
+
+  mongoService:
+    image: mongo
+    container_name: mongo-cont
+    ports:
+      - 27017:27017
+    networks:
+      - mynetwork1
+
+networks:
+  microserviceNetwork:
+    driver: bridge

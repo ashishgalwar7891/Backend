@@ -1,0 +1,255 @@
+db.Restaurant.insertMany([{
+    "address":{
+        "building":"23, Acher Main",
+        "street":"marble drive",
+        "zipcode":"12345"
+    },
+    "type_of_restaurant":"Indian",
+    "cuisine":["pastry","dessert"],
+    "state":"Oklahoma",
+    "grades":[
+        {
+            "date":"2014-10-01T00:00:00Z",
+            "grade":"A",
+            "score":11
+        },
+        {
+            "date":"2014-01-16T00:00:00Z",
+            "grade":"B",
+            "score":17
+        },
+        {
+            "date":"2013-01-16T00:00:00Z",
+            "grade":"B",
+            "score":21
+        },
+        {
+            "date":"2012-10-01T00:00:00Z",
+            "grade":"A",
+            "score":2
+        },
+        {
+            "date":"2011-01-16T00:00:00Z",
+            "grade":"B",
+            "score":8
+        },
+        {
+            "date":"2010-01-16T00:00:00Z",
+            "grade":"B",
+            "score":23
+        },
+        {
+            "date":"2009-10-01T00:00:00Z",
+            "grade":"A",
+            "score":11
+        },
+        {
+            "date":"2008-01-16T00:00:00Z",
+            "grade":"B",
+            "score":17
+        },
+        {
+            "date":"2007-01-16T00:00:00Z",
+            "grade":"B",
+            "score":21
+        },
+        {
+            "date":"2006-10-01T00:00:00Z",
+            "grade":"A",
+            "score":2
+        },
+        {
+            "date":"2005-01-16T00:00:00Z",
+            "grade":"B",
+            "score":8
+        },
+        {
+            "date":"2004-01-16T00:00:00Z",
+            "grade":"B",
+            "score":23
+        }
+    ],
+    "name":"Park Bake Shop",
+    "restaurant_id":"30075445"
+
+}])
+db.Restaurant.insertMany([{
+    "address":{
+        "building":"23, Acher Main",
+        "street":"marble drive",
+        "zipcode":"12345"
+    },
+    "type_of_restaurant":"Bakery",
+    "cuisine":["French","dessert"],
+    "state":"Oklahoma",
+    "grades":[
+        {
+            "date":"2014-10-01T00:00:00Z",
+            "grade":"A",
+            "score":11
+        },
+        {
+            "date":"2014-01-16T00:00:00Z",
+            "grade":"B",
+            "score":17
+        },
+        {
+            "date":"2013-01-16T00:00:00Z",
+            "grade":"B",
+            "score":21
+        },
+        {
+            "date":"2012-10-01T00:00:00Z",
+            "grade":"A",
+            "score":2
+        },
+        {
+            "date":"2011-01-16T00:00:00Z",
+            "grade":"B",
+            "score":8
+        },
+        {
+            "date":"2010-01-16T00:00:00Z",
+            "grade":"B",
+            "score":23
+        },
+        {
+            "date":"2009-10-01T00:00:00Z",
+            "grade":"A",
+            "score":11
+        },
+        {
+            "date":"2008-01-16T00:00:00Z",
+            "grade":"B",
+            "score":17
+        },
+        {
+            "date":"2007-01-16T00:00:00Z",
+            "grade":"B",
+            "score":21
+        },
+        {
+            "date":"2006-10-01T00:00:00Z",
+            "grade":"A",
+            "score":2
+        },
+        {
+            "date":"2005-01-16T00:00:00Z",
+            "grade":"B",
+            "score":8
+        },
+        {
+            "date":"2004-01-16T00:00:00Z",
+            "grade":"B",
+            "score":23
+        }
+    ],
+    "name":"Park Bake Shop",
+    "restaurant_id":"403204"
+
+}])
+db.Restaurant.insertMany([{
+    "address":{
+        "building":"23, Acher Main",
+        "street":"marble drive",
+        "zipcode":"403204"
+    },
+    "type_of_restaurant":"Bakery",
+    "cuisine":["Italian","dessert"],
+    "state":"Alwar",
+    "grades":[
+        {
+            "date":"2014-10-01T00:00:00Z",
+            "grade":"A",
+            "score":11
+        },
+        {
+            "date":"2014-01-16T00:00:00Z",
+            "grade":"B",
+            "score":17
+        },
+        {
+            "date":"2013-01-16T00:00:00Z",
+            "grade":"B",
+            "score":21
+        },
+        {
+            "date":"2012-10-01T00:00:00Z",
+            "grade":"A",
+            "score":2
+        },
+        {
+            "date":"2011-01-16T00:00:00Z",
+            "grade":"B",
+            "score":8
+        },
+        {
+            "date":"2010-01-16T00:00:00Z",
+            "grade":"B",
+            "score":23
+        },
+        {
+            "date":"2009-10-01T00:00:00Z",
+            "grade":"A",
+            "score":11
+        }
+    ],
+    "name":"Pae Shop",
+    "restaurant_id":"30075445"
+
+}])
+db.Restaurant.insertMany([{
+    "address":{
+        "building":"23, Acher Main",
+        "street":"marble drive",
+        "zipcode":"403204"
+    },
+    "type_of_restaurant":"American",
+    "cuisine":["Italian","French"],
+    "state":"Oklahoma",
+    "grades":[
+        {
+            "date":"2014-10-01T00:00:00Z",
+            "grade":"A",
+            "score":11
+        },
+        {
+            "date":"2014-01-16T00:00:00Z",
+            "grade":"B",
+            "score":17
+        }
+    ],
+    "name":"Park Bake Shop",
+    "restaurant_id":"132132"
+
+}])
+//Display All the document in the collection Restuarant
+db.Restaurant.find().pretty()
+//Display all restaurant type Bakery
+db.Restaurant.find({"type_of_restaurant":"Bakery"}).pretty()
+//Display all restaurant that serve cuisine Italian or french use $or
+
+db.Restaurant.find({
+    $or: [
+        { cuisine: "Italian" },
+        { cuisine: "French" }
+    ]
+})
+db.Restaurant.find({restaurant_id:"403204"}).pretty()
+//Display all restaurants that have a grades greater than 10
+db.Restaurant.find({"grades.score":{$gt:10}}).pretty()
+//Display the sum of all the scores of restaurant (hint:use aggregation)
+db.Restaurant.aggregate([
+    {
+        $unwind: "$grades"
+    },
+    {
+        $group: {
+            _id: null,
+            totalScore: { $sum: "$grades.score" }
+        }
+    }
+])
+
+
+

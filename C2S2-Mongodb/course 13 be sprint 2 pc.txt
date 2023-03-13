@@ -1,0 +1,90 @@
+movie_db> use address_db
+switched to db address_db
+address_db> db.address.insertOne({houseno:2,street:"street1",city:"mumbai"})
+{
+  acknowledged: true,
+  insertedId: ObjectId("63aad1899b47500d4e3b596c")
+}
+address_db> db.address.insertMany({houseno:1,street:"street2",city:"new york"},{houseno:25,city:"london",street:"street c"},{houseno:100,city:"paris",street:"22 jump street"},{houseno:123,street:"abc",city:"new york"},{houseno:99,street:"joe",city:"mama"})
+MongoInvalidArgumentError: Argument "docs" must be an array of documents
+address_db> db.address.insertMany([{houseno:1,street:"street2",city:"new york"},{houseno:25,city:"london",street:"street c"},{houseno:100,city:"paris",street:"22 jump street"},{houseno:123,street:"abc",city:"new york"},{houseno:99,street:"joe",city:"mama"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("63aad2889b47500d4e3b596d"),
+    '1': ObjectId("63aad2889b47500d4e3b596e"),
+    '2': ObjectId("63aad2889b47500d4e3b596f"),
+    '3': ObjectId("63aad2889b47500d4e3b5970"),
+    '4': ObjectId("63aad2889b47500d4e3b5971")
+  }
+}
+====================================================================================
+address_db> db.address.find().pretty()
+[
+  {
+    _id: ObjectId("63aad1899b47500d4e3b596c"),
+    houseno: 2,
+    street: 'street1',
+    city: 'mumbai'
+  },
+  {
+    _id: ObjectId("63aad2889b47500d4e3b596d"),
+    houseno: 1,
+    street: 'street2',
+    city: 'new york'
+  },
+  {
+    _id: ObjectId("63aad2889b47500d4e3b596e"),
+    houseno: 25,
+    city: 'london',
+    street: 'street c'
+  },
+  {
+    _id: ObjectId("63aad2889b47500d4e3b596f"),
+    houseno: 100,
+    city: 'paris',
+    street: '22 jump street'
+  },
+  {
+    _id: ObjectId("63aad2889b47500d4e3b5970"),
+    houseno: 123,
+    street: 'abc',
+    city: 'new york'
+  },
+  {
+    _id: ObjectId("63aad2889b47500d4e3b5971"),
+    houseno: 99,
+    street: 'joe',
+    city: 'mama'
+  }
+]
+=====================================================================================================================
+address_db>  db.movies.find({"city":{$eq:"mumbai"}})
+
+address_db>  db.address.find({"city":{$eq:"mumbai"}})
+[
+  {
+    _id: ObjectId("63aad1899b47500d4e3b596c"),
+    houseno: 2,
+    street: 'street1',
+    city: 'mumbai'
+  }
+]
+=====================================================================================================================
+address_db> db.address.find({city:{ $in: ["Rochester","new york","Kingston"]}})
+[
+  {
+    _id: ObjectId("63aad2889b47500d4e3b596d"),
+    houseno: 1,
+    street: 'street2',
+    city: 'new york'
+  },
+  {
+    _id: ObjectId("63aad2889b47500d4e3b5970"),
+    houseno: 123,
+    street: 'abc',
+    city: 'new york'
+  }
+]
+address_db>
+{ acknowledged: true, deletedCount: 1 }

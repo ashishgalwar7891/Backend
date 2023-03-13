@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8446c486-8907-48f0-88f2-843bed3723b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/bej_c5_s3_rabbitmq_pc_1-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/bej_c5_s3_rabbitmq_pc_1-master/.idea/bej_c5_s3_rabbitmq_pc_1-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/bej_c5_s3_rabbitmq_pc_1-master/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/bej_c5_s3_rabbitmq_pc_1-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/bej_c5_s3_rabbitmq_pc_1-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/bej_c5_s3_rabbitmq_pc_1-master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/e-commerce/product-app/src/main/java/com/example/productapp/ProductAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/e-commerce/product-app/src/main/java/com/example/productapp/ProductAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/product-app/src/app/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/product-app/src/app/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/product-app/src/app/log-in/log-in.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/product-app/src/app/log-in/log-in.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/product-app/src/app/sign-up/sign-up.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mini-project and pre-project/pre-project-evaluation-task-e-commerce-website-master/product-app/src/app/sign-up/sign-up.component.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2MmyEO76PbzpiklazYnYmEsjrFR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8446c486-8907-48f0-88f2-843bed3723b3" name="Changes" comment="" />
+      <created>1678386939327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678386939327</updated>
+    </task>
+    <servers />
+  </component>
+</project>

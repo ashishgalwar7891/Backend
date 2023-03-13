@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microdemoUsing-RabbitMQ-master/ShoppingApplication.iml" filepath="$PROJECT_DIR$/microdemoUsing-RabbitMQ-master/ShoppingApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microdemoUsing-RabbitMQ-master/UserAuthenticationService/UserAuthenticationService.iml" filepath="$PROJECT_DIR$/microdemoUsing-RabbitMQ-master/UserAuthenticationService/UserAuthenticationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microdemoUsing-RabbitMQ-master/UserProductService/UserProductService.iml" filepath="$PROJECT_DIR$/microdemoUsing-RabbitMQ-master/UserProductService/UserProductService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bej_c5_s3_rabbitmq_pc_1-master.iml" filepath="$PROJECT_DIR$/.idea/bej_c5_s3_rabbitmq_pc_1-master.iml" />
+    </modules>
+  </component>
+</project>

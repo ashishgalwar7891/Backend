@@ -1,0 +1,48 @@
+version: "3.9"
+services:
+  mysql-Service:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    container_name: mysql-Container
+    networks:
+      - mynetwork1
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      restart: always
+
+  mongodb-Service:
+    image: mongo
+    container_name: mongo-Container
+    networks:
+      - mynetwork1
+    ports:
+      - "27017:27017"
+
+  AuthApplication:
+    container_name: Auth-Application
+    build: UserAuthenticationServices/
+    networks:
+      - mynetwork1
+    ports:
+      - "4445:4445"
+    depends_on:
+      - mysql-Service
+    restart: always
+
+  UserTrackApplication:
+    container_name: User-Track-Application
+    build: UserTrackServices/
+    networks:
+      - mynetwork1
+    ports:
+      - "777:777"
+    depends_on:
+      - mongodb-Service
+
+networks:
+  user-product-net:
+    driver: bridge

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7223bcbc-74e3-46a7-9b00-5f0becae568b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/UserAuthenticationServicesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/exception/UserAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/filter/JWTSecurityTokenGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/filter/SecurityTokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/services/UserServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/services/UserServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserAuthenticationServices/src/test/java/com/MusicApplication/UserAuthenticationServices/UserAuthenticationServicesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/UserTrackServicesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/controller/UserTrackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/domain/Track.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/TrackNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/filter/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/repository/UserTrackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/services/UserTrackServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/services/UserTrackServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/MusicApplication/MicroServices/UserTrackServices/src/test/java/com/MusicApplication/UserTrackServices/UserTrackServicesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/services/SecurityTokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/services/SecurityTokenGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/services/UserServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/java/com/example/AuthApplication/services/UserServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/AuthApplication/src/test/java/com/example/AuthApplication/AuthApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/UserProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/controller/UserProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/filter/UserProductFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/repository/UserProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/services/UserProductServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/java/com/example/UserProductApplication/services/UserProductServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/UserProductApplication/src/test/java/com/example/UserProductApplication/UserProductApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C3S4-Microservices/microServices Demo/MicroServices/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/C2S3-.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/ProductApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-/ProductApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C2S3-RESTful Service by Using Mongo Repository and Handle Exceptions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../C2S3-RESTful Service by Using Mongo Repository and Handle Exceptions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/.idea/JWT MC1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/UserProductApplication/src/main/java/com/example/UserProductApplication/controller/UserProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWT MC1/UserProductApplication/src/main/java/com/example/UserProductApplication/controller/UserProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWT MC1/UserProductApplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JWT MC1/UserProductApplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/MongoCRUDdemo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S2-Docker command and connection/MongoCRUDdemo/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/MongoCRUDdemo/src/main/java/com/example/MongoCRUDdemo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S2-Docker command and connection/MongoCRUDdemo/src/main/java/com/example/MongoCRUDdemo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/MongoCRUDdemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S2-Docker command and connection/MongoCRUDdemo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/ProductApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/exception/CustomerAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/exception/CustomerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/services/CustomerServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/services/CustomerServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/test/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/CustomerRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/test/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/CustomerServicesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker command and connection/ProductApplication/src/test/java/com/BEJ_C2_S3_REST_API_MONGODB_PC1/ProductApplication/ProductApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker/MongoCRUDdemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S2-Docker/ProductApplication/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_AuthApp/src/main/java/com/example/springBoot_JWT_AuthApp/services/CustomerServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_AuthApp/src/main/java/com/example/springBoot_JWT_AuthApp/services/CustomerServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_AuthApp/src/main/java/com/example/springBoot_JWT_AuthApp/services/SecurityTokenGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_AuthApp/src/main/java/com/example/springBoot_JWT_AuthApp/services/SecurityTokenGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_CustomerApp/src/main/java/com/example/springBoot_JWT_CustomerApp/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_CustomerApp/src/main/java/com/example/springBoot_JWT_CustomerApp/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_CustomerApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose mc/springBoot_JWT_CustomerApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose pc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose pc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose pc/UserProductApplication/src/main/java/com/example/UserProductApplication/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose pc/UserProductApplication/src/main/java/com/example/UserProductApplication/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose pc/UserProductApplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../C3S3-Docker compose/Docker compose pc/UserProductApplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/UserAuthenticationServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/exception/UserAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/filter/JWTSecurityTokenGeneratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/filter/SecurityTokenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/services/UserServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/java/com/MusicApplication/UserAuthenticationServices/services/UserServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserAuthenticationServices/src/test/java/com/MusicApplication/UserAuthenticationServices/UserAuthenticationServicesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/UserTrackServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/controller/UserTrackController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/domain/Track.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/TrackNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/UserAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/filter/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/repository/UserTrackRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/services/UserTrackServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/java/com/MusicApplication/UserTrackServices/services/UserTrackServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/MusicApplication/UserTrackServices/src/test/java/com/MusicApplication/UserTrackServices/UserTrackServicesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/ShoppingApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/UserAuthenticationServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/exception/UserAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/filter/UserSecurityFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/filter/UserSecurityFilterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/services/UserServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/java/com/shoppingApplication/userAuthenticationServices/services/UserServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userAuthenticationServices/src/test/java/com/shoppingApplication/userAuthenticationServices/UserAuthenticationServicesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/Config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/UserProductServicesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/container/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/exception/ProductNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/exception/UserAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/exception/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/filter/ProductSecurityFilterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/services/ProductServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/java/com/shoppingApplication/userProductServices/services/ProductServicesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C3S3-Microservices/ShoppingApplication/userProductServices/src/test/java/com/shoppingApplication/userProductServices/UserProductServicesApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2JwRbZyGQmfzlDQwRsPoRO0LxwP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7223bcbc-74e3-46a7-9b00-5f0becae568b" name="Changes" comment="" />
+      <created>1672987232766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672987232766</updated>
+    </task>
+    <servers />
+  </component>
+</project>

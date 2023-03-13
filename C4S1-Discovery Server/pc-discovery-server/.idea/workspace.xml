@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29a26fb8-d5e8-4056-b98b-7c3d1afc1d25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/MailService/src/main/java/com/example/MailService/RabbitMQ/EmailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/MailService/src/main/java/com/example/MailService/RabbitMQ/MessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/MailService/src/main/java/com/example/MailService/RabbitMQ/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/MicroserviceRootApp-pc/AuthApp/src/main/java/com/example/AuthApp/rabbitmq/EmailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/MicroserviceRootApp-pc/AuthApp/src/main/java/com/example/AuthApp/rabbitmq/MailProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/MicroserviceRootApp-pc/AuthApp/src/main/java/com/example/AuthApp/rabbitmq/MessageConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/RabbitMQ-mc/Notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/RabbitMQ-mc/Notification/src/main/java/com/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C4S3-RabbitMQ/RabbitMQ-mc/Notification/src/test/java/com/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc-discovery-server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../mc-discovery-server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc-discovery-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc-discovery-server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mc-discovery-server/mc-1-user-track-service/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../mc-discovery-server/mc-1-user-track-service/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35eebed021dd0d203ccd538059abd3554b72ccb3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6cf43547413c1fc2e174e2c58a405b91bdde9ba4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e87f8e6fc5b70ab8589fa097b23aa968f9c580da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef1bbdf5aba79c91a7cd32db14b016c1ca9c0915" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K7RsefmUzyZQ8i2CmyBJdPvL23" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29a26fb8-d5e8-4056-b98b-7c3d1afc1d25" name="Changes" comment="" />
+      <created>1673323844453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673323844453</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,402 @@
+==> use restaurant_db
+switched to db restaurant_db
+===================================Insert Data=================================================
+ db.restaurant.insertOne({"address":{
+...   "building":"23,Acher Main",
+...   "street": "marble drive",
+...   "zipCode":40246
+... },
+... "type_of_restaurant":"Bakery",
+... "cusine":["pastry","dessert"],
+... "state":"okloma",
+... "grade":[
+...  {"date":{"$date":3648292},"grade":"A","score:2"},
+... {"date":{"$date":3648292},"grade":"A","score:2"},
+... {"date":{"$date":3648292},"grade":"A","score:2"},
+... {"date":{"$date":3648292},"grade":"A","score:2"},
+... {"date":{"$date":3648292},"grade":"A","score:2"}
+...   ],
+... "name":"park Bake Shop",
+... "restaurant_id":"3045627"
+... })
+===================================================================
+Display all the documents n the collection restaurants.
+db.restaurant.find().pretty()
+{
+        "_id" : ObjectId("63650137dce7c281e38ed8b5"),
+        "address" : {
+                "building" : "1007",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "10462"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1322006400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1299715200000
+                        },
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+{
+        "_id" : ObjectId("636501c267102e0a48cb6eff"),
+        "address" : {
+                "building" : "1056",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "403204"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : ISODate("2014-03-03T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : ISODate("2013-09-11T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : ISODate("2013-01-24T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : ISODate("2011-11-23T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : ISODate("2011-03-10T00:00:00Z"),
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+=============================================================================
+db.restaurant.find({type_of_restaurant:"Bakery"}).pretty()
+{
+        "_id" : ObjectId("63652fb4ced417c6e7f171cd"),
+        "address" : {
+                "building" : "1056",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "403204"
+        },
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : ISODate("2014-03-03T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : ISODate("2013-09-11T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : ISODate("2013-01-24T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : ISODate("2011-11-23T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : ISODate("2011-03-10T00:00:00Z"),
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445",
+        "type_of_restaurant" : "Bakery"
+}
+====================================================================================
+db.restaurant.find({cuisine:{$in :["Bakery","Italian"]}}).pretty()
+{
+        "_id" : ObjectId("63650137dce7c281e38ed8b5"),
+        "address" : {
+                "building" : "1007",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "10462"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : {
+                                "$date" : 1393804800000
+                        },
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : {
+                                "$date" : 1378857600000
+                        },
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : {
+                                "$date" : 1358985600000
+                        },
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : {
+                                "$date" : 1322006400000
+                        },
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : {
+                                "$date" : 1299715200000
+                        },
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+{
+        "_id" : ObjectId("636501c267102e0a48cb6eff"),
+        "address" : {
+                "building" : "1056",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "403204"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : ISODate("2014-03-03T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : ISODate("2013-09-11T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : ISODate("2013-01-24T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : ISODate("2011-11-23T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : ISODate("2011-03-10T00:00:00Z"),
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+{
+        "_id" : ObjectId("63652fb4ced417c6e7f171cd"),
+        "address" : {
+                "building" : "1056",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "403204"
+        },
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : ISODate("2014-03-03T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : ISODate("2013-09-11T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : ISODate("2013-01-24T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : ISODate("2011-11-23T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : ISODate("2011-03-10T00:00:00Z"),
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445",
+        "type_of_restaurant" : "Bakery"
+}
+================================================================================
+db.restaurant.find({"address.zipcode":"403204"},{"grades.score":true,"restaurant_id":true}).pretty()
+{
+        "_id" : ObjectId("636501c267102e0a48cb6eff"),
+        "grades" : [
+                {
+                        "score" : 2
+                },
+                {
+                        "score" : 6
+                },
+                {
+                        "score" : 10
+                },
+                {
+                        "score" : 9
+                },
+                {
+                        "score" : 14
+                }
+        ],
+        "restaurant_id" : "30075445"
+}
+{
+        "_id" : ObjectId("63652fb4ced417c6e7f171cd"),
+        "grades" : [
+                {
+                        "score" : 2
+                },
+                {
+                        "score" : 6
+                },
+                {
+                        "score" : 10
+                },
+                {
+                        "score" : 9
+                },
+                {
+                        "score" : 14
+                }
+        ],
+        "restaurant_id" : "30075445"
+==========================================================================
+db.restaurant.find({"grades.score":{$gte:10}}).pretty()
+{
+        "_id" : ObjectId("636501c267102e0a48cb6eff"),
+        "address" : {
+                "building" : "1056",
+                "coord" : [
+                        -73.856077,
+                        40.848447
+                ],
+                "street" : "Morris Park Ave",
+                "zipcode" : "403204"
+        },
+        "borough" : "Bronx",
+        "cuisine" : "Bakery",
+        "grades" : [
+                {
+                        "date" : ISODate("2014-03-03T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 2
+                },
+                {
+                        "date" : ISODate("2013-09-11T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 6
+                },
+                {
+                        "date" : ISODate("2013-01-24T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 10
+                },
+                {
+                        "date" : ISODate("2011-11-23T00:00:00Z"),
+                        "grade" : "A",
+                        "score" : 9
+                },
+                {
+                        "date" : ISODate("2011-03-10T00:00:00Z"),
+                        "grade" : "B",
+                        "score" : 14
+                }
+        ],
+        "name" : "Morris Park Bake Shop",
+        "restaurant_id" : "30075445"
+}
+============================================================================
+db.restaurant.aggregate([{$project:{TotalScore:{$sum: "$grades.score" }}}])
+{ "_id" : ObjectId("63650137dce7c281e38ed8b5"), "TotalScore" : 22 }
+{ "_id" : ObjectId("636501c267102e0a48cb6eff"), "TotalScore" : 41 }
+{ "_id" : ObjectId("636501f567102e0a48cb6f00"), "TotalScore" : 41 }
+{ "_id" : ObjectId("6365029167102e0a48cb6f01"), "TotalScore" : 41 }
+{ "_id" : ObjectId("636502f967102e0a48cb6f02"), "TotalScore" : 59 }
+{ "_id" : ObjectId("63652fb4ced417c6e7f171cd"), "TotalScore" : 41 }

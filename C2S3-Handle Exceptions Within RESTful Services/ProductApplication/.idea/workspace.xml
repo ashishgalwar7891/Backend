@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78891b00-9b30-4b08-871d-8f61888949ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../C2S1-CRUD using jpa/BEJ_C2_S1_REST_MYSQL_MC1/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C2S1-CRUD using jpa/BEJ_C2_S1_REST_MYSQL_MC1/src/test/java/com/example/BEJ_C2_S1_REST_MYSQL_MC1/BejC2S1RestMysqlMc1ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C2S1-CRUD using jpa/BEJ_C2_S1_REST_MYSQL_MC1/src/test/java/com/example/BEJ_C2_S1_REST_MYSQL_MC1/BejC2S1RestMysqlMc1ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3S1-Authenticate using JWT/JWT MC1/UserProductApplication/src/main/java/com/example/UserProductApplication/controller/UserProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3S1-Authenticate using JWT/JWT MC1/UserProductApplication/src/main/java/com/example/UserProductApplication/controller/UserProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3S1-Authenticate using JWT/JWT MC1/UserProductApplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3S1-Authenticate using JWT/JWT MC1/UserProductApplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C3S1-Authenticate using JWT/JWT PC1/springBoot_JWT_CustomerApp/src/main/java/com/example/springBoot_JWT_CustomerApp/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../C3S1-Authenticate using JWT/JWT PC1/springBoot_JWT_CustomerApp/src/main/java/com/example/springBoot_JWT_CustomerApp/controller/CustomerController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2JtJouWQbuyEJVVWni0JMLCOAV8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78891b00-9b30-4b08-871d-8f61888949ef" name="Changes" comment="" />
+      <created>1672891623916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672891623916</updated>
+    </task>
+    <servers />
+  </component>
+</project>
